@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vpn-engineer"
+version = "1.0.0"
+description = "Universal Autonomous AI Agent Plugin for VPN Infrastructure & Anti-Censorship"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "zzakhar", url = "https://github.com/zzakhar" }
+]
+dependencies = [
+    "click>=8.0.0",
+    "paramiko>=2.8.0",
+    "pyyaml>=6.0"
+]
+
+[project.scripts]
+vpn-engineer = "vpn_engineer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vpn_engineer*"]

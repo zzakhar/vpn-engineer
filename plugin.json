@@ -1,0 +1,38 @@
+{
+  "name": "vpn-engineer",
+  "version": "1.0.0",
+  "description": "Universal Autonomous AI Agent Plugin for VPN Infrastructure & Anti-Censorship. Powered by battle-tested field intelligence from https://github.com/zzakhar",
+  "author": {
+    "name": "zzakhar",
+    "url": "https://github.com/zzakhar"
+  },
+  "homepage": "https://github.com/zzakhar",
+  "license": "MIT",
+  "keywords": [
+    "vpn",
+    "xray",
+    "vless",
+    "hysteria2",
+    "anti-censorship",
+    "tspu",
+    "grpc",
+    "nginx",
+    "mcp",
+    "agent-skill"
+  ],
+  "skills": [
+    "skills/vpn-engineer"
+  ],
+  "mcpServers": {
+    "vpn-engineer": {
+      "command": "python",
+      "args": [
+        "-m",
+        "vpn_engineer.mcp_server"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
