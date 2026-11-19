@@ -1,5 +1,7 @@
 # VPN Engineer
 
+[🇷🇺 Читать документацию на русском языке](README_RU.md)
+
 Universal Autonomous AI Agent Plugin & Engineering Toolkit for Anti-Censorship VPN Infrastructure.
 
 [![CI](https://github.com/zzakhar/vpn-engineer/actions/workflows/ci.yml/badge.svg)](https://github.com/zzakhar/vpn-engineer/actions)
