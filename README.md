@@ -71,7 +71,19 @@ vpn-engineer/
 
 ## Quick Start
 
-### 1. Installation
+### 🌟 1-Prompt AI Installation (Recommended)
+
+You don't even need to touch the command line. Just copy and send this prompt to your AI assistant (**Antigravity**, **Claude Code**, **Cursor**, **Windsurf**):
+
+```text
+Install and configure this plugin for yourself: https://github.com/zzakhar/vpn-engineer
+```
+
+The AI will automatically clone the repository, link the Agent Skill, register the MCP server tools, and immediately interview you to set up or troubleshoot your VPN!
+
+---
+
+### Manual / Local CLI Installation
 
 Run the universal installer to automatically configure the CLI and register the MCP server with detected AI clients:
 
